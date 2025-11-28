@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src:
+    local("Roboto Regular"),
+    url("../font/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Black";
+  src:
+    local("Roboto Bold"),
+    url("../font/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src:
+    local("Roboto Bold"),
+    url("../font/Roboto-Bold.ttf") format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Regular", sans-serif;
+  min-height: 100dvh;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.container {
+  background-color: rgb(35, 66, 74);
+  padding: 9.25rem 7.625rem;
+  max-width: 1440px;
+  min-height: 659px;
+  margin-inline: auto;
+}
+
+.page {
+  width: 65%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-block-end: 1.5rem;
+  font-family: "Roboto Black", sans-serif;
+}
+
+.content {
+  font-size: 1.313rem;
+  letter-spacing: 0;
+  line-height: 1.5;
+  margin-block-end: 1.5rem;
+  font-weight: 400;
+}
+
+.cta {
+  font-size: 1.313rem;
+  font-family: "Roboto Bold", sans-serif;
+  background-color: rgb(56, 207, 217);
+  border-radius: 1.969rem;
+  display: block;
+  padding-block: 0.75em;
+  letter-spacing: 0.05;
+  max-width: 13.571em;
+  text-align: center;
+  margin-block-start: 4.531rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cta:hover {
+  background-color: rgb(0, 255, 255);
+}
+
+.cta:active {
+  outline: 0.125rem dotted rgb(255, 255, 255);
+  outline-offset: 0.313rem;
+}
+
+@media (max-width: 780px) {
+  .page {
+    width: 100%;
+  }
+}
