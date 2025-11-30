@@ -33,25 +33,20 @@ body {
   min-height: 100dvh;
 }
 
-a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-
 .container {
   background-color: rgb(35, 66, 74);
   padding: 9.25rem 7.625rem;
-  max-width: 1440px;
   min-height: 659px;
   margin-inline: auto;
 }
 
 .page {
-  width: 65%;
+  width: 80%;
+  max-width: 710px;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 3.003rem;
   font-weight: 900;
   letter-spacing: 0;
   line-height: 1;
@@ -73,6 +68,8 @@ a {
   background-color: rgb(56, 207, 217);
   border-radius: 1.969rem;
   display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
   padding-block: 0.75em;
   letter-spacing: 0.05;
   max-width: 13.571em;
